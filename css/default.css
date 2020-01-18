@@ -1,0 +1,301 @@
+body {
+	background-image: url("../images-sons/background.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-color: lightgrey;
+	padding: 10px;
+	margin: 0;
+	font-family: "8BITWONDERNominal";
+	height: 97.9vh;
+}
+
+.menu, .level, .game {
+	height: 97.9vh;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+	display: flex;
+}
+
+.start, .choix {
+	text-align: center;
+  max-width: 50%;
+	padding: 20px;
+	background-color: rgba(255,255,255,0.85);
+	border: 2px solid snow;
+	border-radius: 5px;
+	text-shadow: 2px 2px #282828;
+}
+
+.auteurs {
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	color: snow;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  margin: 10px 0px 10px 0px;
+}
+
+input {
+	font-family: "8BITWONDERNominal";
+  font-size: 16px;
+  padding: 16px 30px;
+	border: 2px solid black;
+	border-radius: 5px;
+	color: black;
+	text-transform: uppercase;
+}
+
+button.commencer {
+	font-family: "8BITWONDERNominal";
+	color: dodgerblue;
+	font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border: 2px solid dodgerblue;
+  border-radius: 5px;
+  text-align: center;
+	margin: 5px;
+}
+
+button.commencer:hover {
+  background-color: dodgerblue;
+  color: white;
+}
+
+button.music {
+	position: absolute;
+	bottom: 5%;
+	right: 5%;
+	padding: 5px;
+	border-radius: 8px;
+	border: 2px solid #282828;
+	background-color: snow;
+	margin: 5px;
+}
+
+button.music:hover {
+	background-color: lightgrey;
+}
+
+button.sound {
+	position: absolute;
+	bottom: 5%;
+	right: 10%;
+	padding: 5px;
+	border-radius: 8px;
+	border: 2px solid #282828;
+	background-color: snow;
+	margin: 5px;
+}
+
+button.sound:hover {
+	background-color: lightgrey;
+}
+
+.choix button {
+	font-family: "8BITWONDERNominal";
+	font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+	margin: 5px;
+	width: 100%;
+}
+
+.choix button#facile {
+	border: 2px solid mediumseagreen;
+	color: mediumseagreen;
+}
+
+.choix button#facile:hover {
+	background-color: mediumseagreen;
+	color: snow;
+}
+
+.choix button#intermediaire {
+	border: 2px solid orange;
+	color: orange;
+}
+
+.choix button#intermediaire:hover {
+	background-color: orange;
+	color: snow;
+}
+
+.choix button#difficile {
+	border: 2px solid tomato;
+	color: tomato;
+}
+
+.choix button#difficile:hover {
+	background-color: tomato;
+	color: snow;
+}
+
+.canvasDiv {
+	width: 70%;
+	height: 90%;
+}
+
+canvas {
+	background-color: snow;
+  background-image: linear-gradient(to bottom right, darkgrey, snow);
+  border: 10px solid gold;
+  box-shadow: 0 10px 16px;
+}
+
+.info {
+	display: none;
+	position: absolute;
+	top: 5%;
+	left: 3%;
+	width: 17.5vh;
+	padding: 10px;
+	background-color: rgba(255,255,255,0.85);
+	border: 2px solid snow;
+	border-radius: 10px;
+}
+
+.tsc {
+	font-size: 32px;
+}
+
+.score {
+	padding: 10px;
+	font-size: 80px;
+	text-align: center;
+}
+
+.info img {
+	width: 15vh;
+}
+
+button.pause {
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	padding: 5px;
+	border-radius: 8px;
+	border: 2px solid #282828;
+	background-color: snow;
+	margin: 5px;
+	display: none;
+}
+
+button.pause:hover {
+	background-color: lightgrey;
+}
+
+.winlose {
+	display: none;
+	position: absolute;
+	background-color: rgba(0,0,0,0.85);
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.box {
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 50vw;
+	height: 80vh;
+	background-color: #282828;
+	border: 2px solid gold;
+	border-radius: 10px;
+	padding: 20px;
+	color: gold;
+}
+
+button.retour {
+	position: absolute;
+	top: 2%;
+	right: 2%;
+	font-family: "8BITWONDERNominal";
+	color: dodgerblue;
+	font-size: 16px;
+	padding: 16px 30px;
+	border: none;
+	cursor: pointer;
+	border: 2px solid dodgerblue;
+	border-radius: 5px;
+	text-align: center;
+	margin: 5px;
+	width: 200px;
+}
+
+button.retour:hover {
+	background-color: dodgerblue;
+	color: snow;
+}
+
+button.rejouer {
+	position: absolute;
+	top: 2%;
+	right: 25%;
+	font-family: "8BITWONDERNominal";
+	color: mediumseagreen;
+	font-size: 16px;
+	padding: 16px 30px;
+	border: none;
+	cursor: pointer;
+	border: 2px solid mediumseagreen;
+	border-radius: 5px;
+	text-align: center;
+	margin: 5px;
+	width: 200px;
+}
+
+button.rejouer:hover {
+	background-color: mediumseagreen;
+	color: snow;
+}
+
+button.quitter {
+	position: absolute;
+	top: 10%;
+	right: 2%;
+	font-family: "8BITWONDERNominal";
+	color: tomato;
+	font-size: 16px;
+	padding: 16px 30px;
+	border: none;
+	cursor: pointer;
+	border: 2px solid tomato;
+	border-radius: 5px;
+	text-align: center;
+	margin: 5px;
+	width: 200px;
+}
+
+button.quitter:hover {
+	background-color: tomato;
+	color: snow;
+}
+
+table {
+	width: 100%;
+	height: 80%;
+	font-size: 32px;
+	color: snow;
+}

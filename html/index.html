@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta name="description" content="Casse Brique"/>
+  	<meta name="author" content="Mika Filleul & Adonis Stavridis"/>
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta charset="utf-8"/>
+  	<meta content="text/html; charset=UTF-8" http-equiv="contenttype"/>
+    <link rel="icon" type="image/icon" href="../images-sons/logo.ico"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+    <script type="text/javascript" src="../javascript/script/app.js"></script>
+    <script type="text/javascript" src="../javascript/class/Balle.js"></script>
+    <script type="text/javascript" src="../javascript/class/Board.js"></script>
+    <script type="text/javascript" src="../javascript/class/Boulet.js"></script>
+    <script type="text/javascript" src="../javascript/class/Briques.js"></script>
+    <script type="text/javascript" src="../javascript/class/Game.js"></script>
+    <script type="text/javascript" src="../javascript/class/Planche.js"></script>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/8bit-wonder" type="text/css">
+    <link href="../css/default.css" type="text/css" rel="stylesheet">
+    <title>Casse Brique</title>
+  </head>
+
+  <body>
+
+  	<div class="menu">
+  		<div class="start">
+  			<h1>Casse Brique</h1>
+        <input type="text" name="pseudo" placeholder="Pseudonyme" autocomplete="off" autofocus>
+        <br>
+  			<button class="commencer">Commencer</button>
+  		</div>
+  		<div class="auteurs">
+  			<h2>FILLEUL Mika</h2>
+  			<h2>STAVRIDIS Adonis</h2>
+  		</div>
+  	</div>
+
+    <div class="level">
+      <div class="choix">
+        <h1>Choix du niveau</h1>
+        <button id="facile">Facile</button>
+        <br>
+        <button id="intermediaire">Intermediaire</button>
+        <br>
+        <button id="difficile">Difficile</button>
+      </div>
+    </div>
+
+    <div class="game">
+      <!--Placement du canvas-->
+    </div>
+
+    <div class="info">
+      <span class="tsc">Score:</span>
+      <span class="score">0</span>
+      <div class="vies">
+        <img src="../images-sons/heart.png">
+        <img src="../images-sons/heart.png">
+        <img src="../images-sons/heart.png">
+      </div>
+    </div>
+
+    <button class="pause">
+      <img>
+    </button>
+
+    <div class="winlose">
+      <div class="box">
+        <h1></h1>
+        <h2></h2>
+        <button class="rejouer">Rejouer</button>
+        <button class="retour">Retour</button>
+        <button class="quitter">Quitter</button>
+        <table>
+          <tr><td></td><td></td></tr>
+          <tr><td></td><td></td></tr>
+          <tr><td></td><td></td></tr>
+          <tr><td></td><td></td></tr>
+          <tr><td></td><td></td></tr>
+          <tr><td></td><td></td></tr>
+          <tr><td></td><td></td></tr>
+          <tr><td></td><td></td></tr>
+          <tr><td></td><td></td></tr>
+          <tr><td></td><td></td></tr>
+        </table>
+      </div>
+    </div>
+
+    <button class="music">
+      <img>
+    </button>
+    <button class="sound">
+      <img>
+    </button>
+
+  </body>
+
+</html>
